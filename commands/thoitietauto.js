@@ -64,9 +64,9 @@ module.exports = {
       }
     }
 
-    // Gửi ngay
+
     await sendWeather();
-    // Đặt khoảng thời gian
+
     weatherInterval = setInterval(sendWeather, interval * 1000);
 
     return interaction.reply({
